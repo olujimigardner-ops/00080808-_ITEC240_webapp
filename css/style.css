@@ -1,0 +1,65 @@
+/* General styling inspired by W3Schools CSS examples */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #ffffff;
+    color: #333;
+}
+
+header, footer {
+    background: #6A0DAD;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navigation styling inspired by W3Schools */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+/* Flexbox inspired by W3Schools */
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.box {
+    border: 2px solid #6A0DAD;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+/* Event & Group boxes inspired by W3Schools layout examples */
+.event-box, .group-box {
+    border: 2px solid #6A0DAD;
+    margin: 20px;
+    padding: 15px;
+}
+
+/* Grid layout inspired by W3Schools */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.testimonial {
+    border: 2px solid #6A0DAD;
+    padding: 15px;
+}
